@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="충전소 다모아"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/near_chargers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내위치 주변 충전소 찾기"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/charger_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="충전소 검색하기"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/go_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾는 충전소 목록"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="경남도립남해대학 소프트웨어공학과 앱제작 경진대회 출품작\n 21901011 박성준"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"/>
+
+</LinearLayout>
